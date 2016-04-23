@@ -33,6 +33,7 @@ Key features:
  * Any gaps between messages, say 5 minutes or longer, could be construed as ending a conversation
   * Unless the topic appears to be the same
 * Conversation topic could be one of the most frequently used words
+ * [Zipfs law](https://en.wikipedia.org/wiki/Zipf%27s_law) seems to be most relevant here
  * Extra weighting perhaps in the first message of the conversation as that is likely to set the topic
  * Markov chains will help determine topics from related words - this will be useful to persist across conversations
 * Needs a learning mechanism
