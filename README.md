@@ -34,6 +34,12 @@ Key features:
   * Unless the topic appears to be the same
 * Conversation topic could be one of the most frequently used words
  * [Zipfs law](https://en.wikipedia.org/wiki/Zipf%27s_law) seems to be most relevant here
+ * [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+ * Existing implementations and resources
+  * https://github.com/stanfordnlp/CoreNLP
+  * https://opennlp.apache.org/
+  * https://github.com/dakrone/clojure-opennlp
+  * https://github.com/keonkim/awesome-nlp
  * Extra weighting perhaps in the first message of the conversation as that is likely to set the topic
  * Markov chains will help determine topics from related words - this will be useful to persist across conversations
 * Needs a learning mechanism
